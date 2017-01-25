@@ -1,5 +1,13 @@
+# Requirements
 
-To run on more browsers/environments change the npm test script in package.json to something like:
+Saucelabs account
 
-"test": "./node_modules/.bin/nightwatch -e chrome,firefox,ie10,ie11"
+# Setup
+
+* Clone repo and `npm install` from root.
+* Set the `SAUCE_USERNAME` and `SAUCE_ACCESS_KEY` environment variables
+
+# Execution
+
+To run the tests `npm test`
 
