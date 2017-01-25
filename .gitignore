@@ -7,7 +7,7 @@ allure-results
 coverage
 .idea
 build
-
-
+*.orig
+reports
 !gruntfile.js
 !index.js
