@@ -1,10 +1,6 @@
 /**
  * Created by andrewfowler on 1/25/17.
  */
-/**
- * Created by andrewfowler on 1/25/17.
- */
-//
 
 var https = require('https');
 var SauceLabs = require("saucelabs");
