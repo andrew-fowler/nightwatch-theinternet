@@ -15,11 +15,11 @@ module.exports = {
 
         login_page.navigate()
             .waitForElementVisible('@username', 1000)
-            .setValue('@username', 'tomsmith')
-            .setValue('@password', 'SuperSecretPassword!')
+            .setValue('@username', 'test')
+            .setValue('@password', 'test!')
             .click('@submit')
             .waitForElementVisible("@flash", 1000)
-            .assert.containsText("@flash", "You logged into a secure area!");
+            .assert.containsText("@flash", "Your username is invalid!");
 
         browser.end();
     }
