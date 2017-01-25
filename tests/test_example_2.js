@@ -15,7 +15,7 @@ module.exports = {
             .assert.title('I am a page title - Sauce Labs');
     },
 
-    'Failure Example Check Title 2': function(client) {
+    'Failure Example Check Title': function(client) {
         client
             .url('https://saucelabs-sample-test-frameworks.github.io/training-test-page')
             .waitForElementVisible('body', 1000)

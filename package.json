@@ -7,7 +7,7 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "./node_modules/.bin/nightwatch -e chrome,firefox,ie10,ie11"
+    "test": "./node_modules/.bin/nightwatch -e chrome"
   },
   "repository": {
     "type": "git",

@@ -1,3 +1,5 @@
 
+To run on more browsers/environments change the npm test script in package.json to something like:
 
-`./node_modules/.bin/nightwatch -e chrome,firefox,internet_explorer_10,android_s4_emulator,iphone_6_simulator tests`
+"test": "./node_modules/.bin/nightwatch -e chrome,firefox,ie10,ie11"
+
