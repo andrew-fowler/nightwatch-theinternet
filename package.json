@@ -1,0 +1,22 @@
+{
+  "name": "nightwatch-theinternet",
+  "version": "1.0.0",
+  "description": "Example of nightwatch usage",
+  "main": "nightwatch.conf.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrew-fowler/nightwatch-theinternet.git"
+  },
+  "author": "Andrew Fowler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrew-fowler/nightwatch-theinternet/issues"
+  },
+  "homepage": "https://github.com/andrew-fowler/nightwatch-theinternet#readme"
+}
