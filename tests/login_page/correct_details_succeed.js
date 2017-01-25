@@ -31,7 +31,7 @@ module.exports = {
             .click('button[type=submit]')
     },
 
-    'Check warning is displayed' : function (browser) {
+    'Check success message is displayed' : function (browser) {
         browser
             .waitForElementVisible("div[id='flash']", 1000)
             .assert.containsText("div[id='flash']", "ou logged into a secure area!")
